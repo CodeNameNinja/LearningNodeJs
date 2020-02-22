@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Users</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/create-user.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <ul class="main_header__item-list">
+          <li class="main-header__items"><a href="/">Users</a></li>
+          <li class="main-header__items">
+            <a a class="active" href="/create-user">Add Users</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="/create-user" class = "user-form" method = "POST">
+        <div class="form-control">
+            <Label for = "username">Enter Username</Label>
+            <input type="text" placeholder="input" id = "username" name = username/>
+        </div>
+        <button type="submit">add user</button>
+    </form>
+   
+  </body>
+</html>
