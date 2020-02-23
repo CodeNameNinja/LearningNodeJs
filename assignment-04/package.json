@@ -1,0 +1,20 @@
+{
+  "name": "assignment-04",
+  "version": "1.0.0",
+  "description": "assignment 04 create a npm project and install express.js & add two routes \"/\" => Holds a <form> that allows users to input thier name and \"/users\" Outputs an <ul> with the user names",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Mitchell Yuen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
